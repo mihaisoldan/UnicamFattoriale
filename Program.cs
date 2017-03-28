@@ -4,7 +4,7 @@ namespace UnicamFattoriale
 {
     class Program
     {
-        const int MAX_NO = 16;
+        const int MAX_NO = 12;
         static void Main(string[] args)
         {
             //Stampo dei messaggi di cortesia per l'utente, così lo guido all'utilizzo del programma
