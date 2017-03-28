@@ -15,8 +15,6 @@ namespace UnicamFattoriale
                 //Console.ReadLine si mette in attesa che l'utente digiti qualcosa e prema invio.
                 //Quando ha premuto invio, il testo che ha digitato lo assegno ad una variabile di tipo string.
                 String testoDigitatoDallUtente = Console.ReadLine();
-                if (testoDigitatoDallUtente == "stop")
-                    return;
                 //Interpreto il testo come un numero intero
                 //Attenzione: questa istruzione fallirà se l'utente ha digitato un testo
                 //che non è interpretabile come un numero! (Es. ABCD)
